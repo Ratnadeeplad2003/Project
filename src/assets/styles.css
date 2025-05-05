@@ -1,0 +1,149 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f0f4f8; /* Light background for the entire dashboard */
+}
+
+.dashboard {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #3a3f47; /* Dark sidebar */
+  color: #fff; /* White text color */
+  padding: 20px;
+}
+
+.sidebar h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.student-info {
+  margin-bottom: 20px;
+}
+
+.student-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.options {
+  margin: 10px 0;
+}
+
+.sidebar button {
+  background-color: #4a4e57; /* Slightly lighter dark */
+  color: #fff; /* White text */
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sidebar button:hover {
+  background-color: #575d66; /* Darker on hover */
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff; /* White background for content area */
+  border-left: 1px solid #ccc; /* Add separation from sidebar */
+}
+
+/* Navigation Buttons for Other Fees & Receipt */
+.navigation-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.navigation-buttons button {
+  background-color: #007bff; /* Bootstrap primary blue */
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navigation-buttons button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light grey for sections */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+h2 {
+  color: #333; /* Dark text for headers */
+}
+
+h3 {
+  color: #555; /* Slightly lighter dark for subheaders */
+}
+
+select {
+  margin-top: 10px;
+  padding: 8px;
+  border: 1px solid #ccc; /* Border for the select input */
+  border-radius: 4px;
+  width: 100%; /* Full width */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa; /* Light background for the header */
+  border-bottom: 1px solid #ddd; /* Light border for separation */
+}
+
+.header-options button {
+  margin-left: 10px; /* Space between buttons */
+  padding: 5px 10px; /* Padding for buttons */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text */
+  cursor: pointer; /* Pointer cursor for buttons */
+}
+
+.header-options button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.user-profile {
+  display: flex;
+  justify-content: flex-end; /* Aligns the profile info to the right */
+  padding: 10px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Spacing between items */
+}
+
+.profile-name {
+  font-weight: bold;
+}
+
+.profile-prn {
+  font-size: 0.9em;
+  color: gray; /* Different color for PRN number */
+}
+

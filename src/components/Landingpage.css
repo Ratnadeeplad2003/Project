@@ -1,0 +1,209 @@
+/* Main Landing Page Container */
+.landing-container {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50;
+  padding: 20px;
+}
+
+.navbar-logo h1 {
+  color: white;
+  font-size: 1.8em;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-links li {
+  margin: 0 15px;
+}
+
+.navbar-links .nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-links .nav-link:hover {
+  background-color: #34495e;
+  border-radius: 5px;
+}
+
+.navbar-links .signup-btn {
+  background-color: #28a745;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+.navbar-links .signup-btn:hover {
+  background-color: #218838;
+}
+
+/* Landing Header Styling */
+.landing-header {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ecf0f1;
+}
+
+.landing-header h4 {
+  font-size: 1.3em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.landing-image {
+  width: 70%;
+  max-width: 700px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.landing-header p {
+  font-size: 1.2em;
+  margin-top: 20px;
+  color: #555;
+}
+
+.cta-btn {
+  background-color: #3498db;
+  padding: 15px 30px;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Features Section Styling */
+.features {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.feature-item {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.feature-item i {
+  font-size: 2em;
+  color: #3498db;
+  margin-bottom: 20px;
+}
+
+.feature-item h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  color: #555;
+}
+
+/* Testimonials Section Styling */
+.PayAnyWhereAnytime {
+  background-color: #ecf0f1;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.testimonial-item {
+  background-color: white;
+  padding: 30px;
+  margin: 20px auto;
+  width: 70%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.testimonial-item h4 {
+  font-size: 1.1em;
+  color: #333;
+  margin-top: 15px;
+  font-style: italic;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .landing-image {
+    width: 90%;
+    max-width: 100%;
+  }
+
+  .landing-header h4 {
+    font-size: 1.1em;
+  }
+
+  .cta-btn {
+    padding: 10px 20px;
+    font-size: 1.1em;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links li {
+    margin-bottom: 10px;
+  }
+}

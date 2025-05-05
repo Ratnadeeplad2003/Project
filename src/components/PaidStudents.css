@@ -1,0 +1,173 @@
+.paid-students {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.paid-students h1 {
+  text-align: center;
+  color: #333;
+}
+
+.paid-students table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.paid-students table th,
+.paid-students table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.paid-students table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.paid-students button {
+  padding: 8px 16px; /* Adjust padding for better sizing */
+  border: none;
+  cursor: pointer;
+  margin: 5px; /* Add spacing between buttons */
+  font-size: 14px; /* Adjust font size */
+  border-radius: 4px; /* Add slight border radius for rounded corners */
+}
+
+.view-btn {
+  background-color: #007bff;
+  color: white;
+  width: auto; /* Prevent stretching */
+}
+
+.view-btn:hover {
+  background-color: #0056b3;
+}
+
+.generate-btn {
+  background-color: #28a745;
+  color: white;
+  width: auto; /* Prevent stretching */
+}
+
+.generate-btn:hover {
+  background-color: #218838;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  width: auto; /* Prevent stretching */
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.modal-content p {
+  margin: 10px 0;
+}
+
+.close-btn {
+  margin-top: 10px;
+  background-color: #6c757d;
+  color: white;
+}
+
+.close-btn:hover {
+  background-color: #5a6268;
+}
+.filters {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.filters label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.filters select {
+  padding: 8px;
+  font-size: 14px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Optional: Add basic styles for table and modal */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  width: 400px;
+  margin: 100px auto;
+  border-radius: 10px;
+}
+
+.close-btn {
+  margin-top: 20px;
+  padding: 8px 16px;
+  background: #ff5555;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

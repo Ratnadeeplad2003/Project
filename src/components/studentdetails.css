@@ -1,0 +1,45 @@
+.student-details {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.filters, .file-upload {
+  margin-bottom: 20px;
+}
+
+.filters select, .file-upload input {
+  margin-right: 10px;
+}
+
+.students-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.students-list th, .students-list td {
+  border: 1px solid #141313;
+  padding: 8px;
+  text-align: left;
+}
+
+.students-list th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+.show-file-btn,
+.clear-preview {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.show-file-btn:hover,
+.clear-preview:hover {
+  background-color: #1976d2;
+}

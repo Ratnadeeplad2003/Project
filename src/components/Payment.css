@@ -1,0 +1,153 @@
+.payment-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #f3f4f6, #e1e8f0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: 'Arial', sans-serif;
+}
+
+.payment-container h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.payment-container label {
+  display: block;
+  font-size: 1rem;
+  color: #34495e;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.payment-container input[type="text"],
+.payment-container input[type="number"] {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  background: #ecf0f1;
+}
+
+.payment-container input[type="number"]:focus,
+.payment-container input[type="text"]:focus {
+  outline: none;
+  border-color: #2980b9;
+  box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
+}
+
+.payment-options,
+.payment-methods {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.payment-methods label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0.5rem;
+  background: #f3f4f6;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment-methods label:hover {
+  background: #d6e9ff;
+}
+
+.payment-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background: #2ecc71;
+}
+
+/* New class for the Logout button */
+.logout-button {
+  width: auto; /* Let the button fit its content */
+  max-width: 200px; /* Maximum width of the button */
+  margin: 1rem auto; /* Center the button */
+  background: #e74c3c; /* Red color for logout */
+}
+
+.logout-button:hover {
+  background: #c0392b; /* Darker red on hover */
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
+
+.confirmation {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #dff0d8;
+  color: #3c763d;
+  border: 1px solid #d6e9c6;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.qr-code {
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #ecf0f1;
+}
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.confirmation {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #e0ffe0;
+  border: 1px solid #3c763d;
+  color: #2e7d32;
+}
+
+.payment-logo {
+  width: 40px;
+  height: 40px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.checkbox-group {
+  margin-bottom: 10px;
+}
